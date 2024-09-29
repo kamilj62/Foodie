@@ -10,6 +10,7 @@ import macncheeseImg from "@/assets/macncheese.jpg";
 import pizzaImg from "@/assets/pizza.jpg";
 import schnitzelImg from "@/assets/schnitzel.jpg";
 import tomatoSaladImg from "@/assets/tomato-salad.jpg";
+import chickenMarsalaImg from "@/assets/chicken-marsala.jpeg";
 import classes from "./image-slideshow.module.css";
 
 const images = [
@@ -20,6 +21,7 @@ const images = [
   { image: pizzaImg, alt: "A delicious pizza" },
   { image: schnitzelImg, alt: "A delicious schnitzel" },
   { image: tomatoSaladImg, alt: "A delicious tomato salad" },
+  { image: chickenMarsalaImg, alt: "A delicious chicken marsala" },
 ];
 
 export default function ImageSlideshow() {
